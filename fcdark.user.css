@@ -3428,7 +3428,7 @@ a[href^="/foro/showthread.php"]:nth-of-type(10) {
 a[href^="/foro/showthread.php"]:nth-of-type(10):after {
     visibility: visible;
     content: "Made with ♥️ in Pyongyang 🇰🇵";
-    margin-left: -38px;
+    margin-left: -42px;
 }
 
 body > [href="#"] {
@@ -3801,12 +3801,6 @@ img[src*="customavatars/avatar827708_"] {
   height: 120px;
   padding-right: 120px;
   background: url(https://i.imgur.com/t4TpQ7J.jpg);
-}
-img[src*="customavatars/avatar2361_"] {
-  width: 0px;
-  height: 120px;
-  padding-right: 120px;
-  background: url(https://i.ibb.co/47NdyB3/egvd.gif);
 }
 
 img[src*="https://www.forocoches.com/image/fc_verified_badge.png"] {
