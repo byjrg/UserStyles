@@ -1,18 +1,18 @@
 /* ==UserStyle==
-@name         Forocoches Dark 2023
-@namespace    Forocoches Dark 2023
+@name         ForoCoches Dark 2024
+@namespace    ForoCoches Dark 2024
 @description  Posiblemente el UserStyle con más bugs del mundo
-@version      2023.12.22
-@author       El Menda
-@homepageURL  
-@updateURL    
-@supportURL   
-@license      GPL
-@preprocessor stylus
+@version      2024.01.01
+@author       La F
+@preprocessor uso
+
+@advanced text header_url "Header URL" "https://i.ibb.co/tbJgKNk/default1.png"
+
 ==/UserStyle== */
 
 @-moz-document regexp("(http[s]?:\\/\\/)*forocoches.*") {
-.alt1-user,
+
+    .alt1-user,
     .alt1-author {
         background: var(--bg03);
         color: var(--tx01);
@@ -71,11 +71,11 @@
     --bsh8: 0 8px 8px rgba(0, 0, 0, 0.15);
 
     /* otros */
-    --sz01: 15px; /* tamaño titulos */
+    --sz01: 16px; /* tamaño titulos */
 
     /* resaltado botones */
-    --bns1: brightness(126%);
-    --bns2: brightness(110%);
+    --bns1: brightness(100%);
+    --bns2: brightness(100%);
 
     /* compatibilidad */
     --invert: invert(100%);
@@ -94,8 +94,6 @@
     background-size: 114px 232px;
   }
 
-
-
   /* botones privados */
   img[src*="/newprivate.png"],
   img[src*="/reply_small.gif"],
@@ -108,8 +106,6 @@
   select {
     background: var(--co01) url(https://i.imgur.com/SHlI7tL.png) right no-repeat;
   }
-
-
 
   /* compatibilidad */
   img[src*="/editor/"], /*img[src*="/statusicon/"],*/ img[src*="/misc/"], img[src*="/buttons/"], img[src*="images/mention.png"] {
@@ -151,78 +147,155 @@
 @keyframes fadeIn {from{opacity:0}to{opacity:1}}
   
 /*FUENTES*/
-/* latin */
-@font-face {
-  font-family: 'ABeeZee';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('ABeeZee Regular'), local('ABeeZee-Regular'), url(https://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7myjJTVBNIg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'JostMedium';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/jost/v6/92zPtBhPNqw79Ij1E865zBUv7mx9IjVBNIg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* greek */
-@font-face {
-  font-family: 'ABeeZee';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosans/v12/o-0IIpQlx3QUlC5A4PNr5jRAW_0.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIipYSxP.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJDxzHGAVFIF26OL.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIGpYSxP.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJnxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJLxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Nunito Sans';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIupYSxP.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJPxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Caveat';
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJ3xzHGAVFIF2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
+  font-stretch: 100%;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/caveat/v10/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpYQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJDxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJnxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJLxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJPxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJ3xzHGAVFIF2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJDxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJnxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJLxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJPxzHGAVFIF26OL.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJ3xzHGAVFIF2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 .adcontenido,
@@ -261,7 +334,7 @@ select,
 td,
 textarea,
 th {
-  font-family: ABeeZee
+  font-family: "Nunito Sans"
 }
 /*hilos inicio*/
 .texto,
@@ -291,7 +364,7 @@ code {
 textarea {
   font-size: 17px!important;
   line-height: 1.4!important;
-  font-family: ABeeZee!important
+  font-family: "Nunito Sans"!important
 }
 /*tamao seleccionable de fuente*/
 .smallfont {
@@ -327,10 +400,10 @@ font[size="7"] {
 
 /*BOLD*/
 strong {
-    font-family: JostMedium
+    font-family: "Nunito Sans"
 }
 b {
-    font-family: JostMedium
+    font-family: "Nunito Sans"
 }
   
 /*icono multipagina*/
@@ -495,7 +568,7 @@ body > div > center > table#AutoNumber1 td:last-child {
   z-index: 32;
   background: var(--bg03);
   border: 0;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   font-size: 13px;
   color: var(--tx01);
   padding: 30px 0;
@@ -503,7 +576,7 @@ body > div > center > table#AutoNumber1 td:last-child {
 }
 #infocookie * {
   color: var(--tx01);
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   font-size: 13px
 }
 #infocookie_close {
@@ -575,28 +648,6 @@ table#AutoNumber9 > tbody > tr > td {
   height: 32px
 }
 
-/*texto*/
-table#AutoNumber9 font {
-  font-size: 13px;
-  visibility: hidden;
-  font-family: ABeeZee;
-  font-weight: 500;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-table#AutoNumber9 font:after {
-  font-size: 20px;
-  visibility: visible;
-  font-family: Caveat;
-  font-weight: 500;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  margin-left: -35px;
-  content: "Foroclaxon"
-}
 /*ocultar primer boton*/
 table#AutoNumber9 > tbody > tr > td:nth-child(1) {
   display: none
@@ -691,6 +742,7 @@ table.tborder td.alt1[width="12%"] ~ td.alt2[width="13%"] {
   border-top: 1px solid var(--bg02);
   background-color: var(--bg03)
 }
+    
 /*INICIO*/
 /*columna hora inicio*/
 td[width="84%"] .texto >table>tbody > tr > td:nth-child(2){
@@ -1123,7 +1175,7 @@ ul.tab_list li {
   margin-right: 0;
   height: auto!important;
   font-size: 13px;
-  font-family: ABeeZee!important;
+  font-family: "Nunito Sans"!important;
   text-align: center
 }
 /*pestaas no seleccionadas*/
@@ -1559,6 +1611,17 @@ table#threadslist tr:nth-of-type(1) {
   z-index: 1;
   font-size: 0!important
 }
+
+/* Chinchetas */
+#threadslist > tbody[id^="collapseobj_st_"] {
+    background: var(--bg04);
+}
+
+/* Quita contenedor vacío */
+#threadslist > tbody[id^="collapseobj_st_"] > tr:nth-last-child(1) {
+    display: none;
+}
+
 /*iconos titulo*/
 #threadslist td:nth-child(2) img {
   position: absolute;
@@ -1686,11 +1749,7 @@ a[style="color:#000000;"],
 b[style="color:#000000;"] {
   color: var(--tx01)!important
 }
-/*quitar bordes redondeados imagenes y avatares*/
-.avatar,
-.imgpost {
-  border-radius: 0
-}
+
 /*fondo secundario, fondo foros*/
 .page {
   width: calc(100% - 96px)!important;
@@ -1753,7 +1812,7 @@ td.top2 table[id=AutoNumber7] {
   padding: 48px 0;
   border-collapse: separate!important;
   background: var(--c200);
-  background: linear-gradient(rgba(35,35,35,0), rgba(35,35,35,0.0)), url("https://i.ibb.co/tbJgKNk/default1.png");
+  background: linear-gradient(rgba(35,35,35,0), rgba(35,35,35,0.0)), url("/*[[header_url]]*/");
   background-size: cover;
 }
 table.cajastip {
@@ -1761,7 +1820,7 @@ table.cajastip {
   padding: 44px 0;
   border-collapse: separate!important;
   background: var(--c200);
-  background: linear-gradient(rgba(35,35,35,0), rgba(35,35,35,0.0)), url("https://i.ibb.co/tbJgKNk/default1.png");
+  background: linear-gradient(rgba(35,35,35,0), rgba(35,35,35,0.0)), url("/*[[header_url]]*/");
     background-size: cover;
 }
 td.top2 table[id=AutoNumber7] table {
@@ -1796,7 +1855,7 @@ span.navbar:not(:first-of-type) {
   font: 0/0 a
 }
 span.navbar:not(:first-of-type) a {
-  font-family: ABeeZee
+  font-family: "Nunito Sans"
 }
 span.navbar:not(:first-of-type):before {
   content: "";
@@ -1813,7 +1872,7 @@ span.navbar:not(:first-of-type):before {
 span.navbar a,
 td.alt1 div.navbar[style="font-size:10pt"] strong,
 span.navbar {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   color: var(--rgb5)
@@ -1823,7 +1882,7 @@ span.navbar:last-of-type a {
 }
 /*titulo hilo nuevo formato*/
 td.navbar[style="font-size:10pt; padding-top:1px"] strong {
-  font-size: 22px!important;
+  font-size: 24px!important;
   color: var(--rgb7);
   font-weight: 500;
   margin-left: -1px!important;
@@ -1882,7 +1941,7 @@ div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:n
   position: absolute;
   left: 130.5px;
   font-size: 15px;
-  margin-top: -4px;
+  margin-top: -3px;
   top: 0
 }
 /*temas participados*/
@@ -1890,7 +1949,7 @@ div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:n
   position: absolute;
   left: 260.5px;
   font-size: 15px;
-  margin-top: -4px;
+  margin-top: -3px;
   top: 0
 }
 /*mp*/
@@ -1986,7 +2045,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 a span:nth-child(3):after {
   content: "Menciones";
   line-height: 24px;
   font-size: 15px;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   color: var(--rgb7b)
 }
 td.alt1[width="100%"] + td.alt2 + td.alt2 a span:nth-child(1) {
@@ -2029,7 +2088,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 + td.alt2 a span:nth-child(3):after {
   content: "Citas";
   line-height: 24px;
   font-size: 15px;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   color: var(--rgb7b)
 }
 td.alt1[width="100%"] + td.alt2 + td.alt2 + td.alt2 a span:nth-child(3):hover:after {
@@ -2162,8 +2221,8 @@ td.vbmenu_control a[href*="login.php"] {
   font: 0/0 a
 }
 td.vbmenu_control a[href*="login.php"]:after {
-  content: "Desconectar";
-  font-family: ABeeZee;
+  content: "Cerrar Sesión";
+  font-family: "Nunito Sans";
   margin-left: -37px;
   font-weight: 400;
   font-size: 15px;
@@ -2175,10 +2234,10 @@ td.vbmenu_control a[href*="usercp.php"] {
 }
 td.vbmenu_control a[href*="usercp.php"]:after {
   content: "Panel de Control";
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   font-weight: 400;
   font-size: 15px;
-  line-height: 16px
+  line-height: 14px
 }
 /*menus barras de herramientas*/
 .vbmenu_option {
@@ -2361,7 +2420,9 @@ td.thead[width="175"] {
   font-size: 20px;
 }
 .avatar {
-  border-radius: 2px
+  border-radius: 4px;
+  max-width: 120px;
+  max-height: 120px;
 }
 /*espaciado mensaje*/
 td[id^=td_post] {
@@ -2370,7 +2431,7 @@ td[id^=td_post] {
 /*tamano titulo mensaje*/
 [id^="td_post_"] .smallfont {
   font-size: 16px;
-  font-family: JostMedium;
+  font-family: "Nunito Sans";
 }
 /*enlaces posts*/
 td[id^=td_post] a {
@@ -2685,7 +2746,7 @@ tbody#collapseobj_quickreply td.panelsurround div[style="max-width:880px; width:
 }
 #vB_Editor_001_smiliebox table td.smallfont a {
   color: var(--co01);
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -2738,10 +2799,10 @@ div#vB_Editor_001_popup_fontname td.popup_feedback {
   height: 32px
 }
 div#vB_Editor_001_popup_fontname td.popup_feedback:before {
-  content: "ABeeZee";
+  content: "Nunito Sans";
   cursor: default;
   position: absolute;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   font-size: 14px;
   color: var(--tx01);
   margin-top: -9px;
@@ -2752,7 +2813,7 @@ div#vB_Editor_001_popup_fontname td.popup_feedback > div {
   font-size: 14px;
   height: 32px;
   width: 148px!important;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   background-color: var(--co01);
   position: relative
 }
@@ -2764,7 +2825,7 @@ div#vB_Editor_001_popup_fontsize td.popup_feedback > div {
   line-height: 32px;
   font-size: 14px;
   height: 32px;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   background-color: var(--co01)
 }
 div#vB_Editor_001_popup_fontname td.popup_pickbutton,
@@ -3063,7 +3124,7 @@ input[name="q"] {
   border: 0!important;
   height: 24px!important;
   padding: 0 8px!important;
-  font-family: ABeeZee!important;
+  font-family: "Nunito Sans"!important;
   font-size: 14px!important;
   margin: 4px 8px 4px 0;
   padding-left: 0 !important;
@@ -3097,7 +3158,7 @@ input[name="q"]:focus {
   border-radius: 2px;
   height: 32px;
   padding: 0 32px 0 8px;
-  font-family: ABeeZee;
+  font-family: "Nunito Sans";
   font-size: 14px;
   width: 260px;
   box-shadow: var(--bsh4);
@@ -3138,7 +3199,7 @@ select {
   border-radius: 2px!important;
   min-height: 24px!important;
   padding: 0 24px 0 4px!important;
-  font-family: ABeeZee!important;
+  font-family: "Nunito Sans"!important;
   font-size: 14px!important;
   margin: 4px 8px 4px 0;
   box-shadow: var(--bsh1);
@@ -3183,7 +3244,7 @@ form#searchform div[align=left] div.thead[style="padding:5px"] {
 select option {
   vertical-align: middle;
   padding: 2px 4px;
-  font-family: ABeeZee!important;
+  font-family: "Nunito Sans"!important;
   font-size: 14px!important
 }
 .fjdpth0 {
@@ -3204,7 +3265,7 @@ input[name=sa],
   height: 24px!important;
   min-width: 24px!important;
   padding: 0 8px!important;
-  font-family: ABeeZee!important;
+  font-family: "Nunito Sans"!important;
   font-weight: 500!important;
   font-size: 13px!important;
   text-transform: uppercase;
@@ -3610,10 +3671,12 @@ img[src*="/misc/sticky.gif"] {
   margin-top: 5px;
 }
 img[src*="/forum_new.gif"],
+img[src*="/forum_old.gif"],
 img[src*="/forum_link.gif"] {
   width: 0;
   height: 32px;
   padding-right: 32px;
+  filter: invert(100%);
   background: url(https://i.imgur.com/bvS3JDb.png) 0 0/32px
 }
 img[src*="/forum_old.gif"] {
@@ -3746,6 +3809,12 @@ img[src*="customavatars/avatar827708_"] {
   height: 120px;
   padding-right: 120px;
   background: url(https://i.imgur.com/t4TpQ7J.jpg);
+}
+img[src*="customavatars/avatar2361_"] {
+  width: 0px;
+  height: 120px;
+  padding-right: 120px;
+  background: url(https://i.ibb.co/47NdyB3/egvd.gif);
 }
 
 img[src*="https://www.forocoches.com/image/fc_verified_badge.png"] {
