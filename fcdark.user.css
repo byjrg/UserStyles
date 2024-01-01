@@ -977,17 +977,7 @@ style[type="text/css"] + #notices .alt1 {
   display: block;
   width: auto
 }
-#notices [src*="foro/images/misc/cross.png"] {
-  position: absolute;
-  right: 4px;
-  top: 4px
-}
-[src*="foro/images/misc/cross.png"] {
-  width: 0;
-  height: 24px;
-  padding-right: 24px;
-  background: url(https://i.imgur.com/vDVSqPh.png) center/24px no-repeat
-}
+
 /*hilos con notificaciones*/
 [id^=td_threadtitle][style="background-color: #ffd1d1;"],
 [id^=td_threadtitle][style="background-color: #fffde4;"],
@@ -1676,8 +1666,8 @@ form[action^="subscription.php"] img[src*="/statusicon/"] {
   padding-right: 8px;
   height: 8px;
   border-radius: 8px;
-  left: 4px;
-  top: 15px;
+  left: 3.5px;
+  top: 13.7px;
 }
 [id^=thread_statusicon] {
   position: absolute;
