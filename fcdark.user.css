@@ -2,7 +2,7 @@
 @name         ForoCoches Dark 2024
 @namespace    ForoCoches Dark 2024
 @description  Posiblemente el UserStyle con más bugs del mundo
-@version      2024.01.01
+@version      2024.04.09
 @homepageURL  https://github.com/byjrg/UserStyles
 @updateURL    https://github.com/byjrg/UserStyles/raw/main/fcdark.user.css
 @author       La F
@@ -151,152 +151,65 @@
 /*FUENTES*/
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
-  font-stretch: 100%;
+  font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t4R-tQLL50tE8-Hw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7SUc.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
-  font-stretch: 100%;
+  font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7txR-tQLL50tE8-Hw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2) format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
-  font-stretch: 100%;
+  font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t6R-tQLL50tE8-Hw.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7SUc.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
-  font-stretch: 100%;
+  font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t7R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Nunito Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 300;
-  font-stretch: 100%;
+  font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t1R-tQLL50tE8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t4R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7txR-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t6R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t7R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t1R-tQLL50tE8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t4R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7txR-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t6R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t7R-tQLL50tE8-Hw.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe0TMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp7t1R-tQLL50tE8.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -336,7 +249,7 @@ select,
 td,
 textarea,
 th {
-  font-family: "Nunito Sans"
+  font-family: "Inter"
 }
 /*hilos inicio*/
 .texto,
@@ -347,13 +260,13 @@ th {
 .alt1 div[id^=post_message],
 .alt1-author,
 .alt1 div[id^=post_message] li {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.4
 }
 /*citas*/
 #HOTWordsTxt td.alt2,
 td.alt2[style="border:1px inset; -moz-border-radius: 8px; border-radius: 8px; margin: 8px; padding: 8px; word-wrap: break-word; display:block; max-height:410px; overflow:auto;"] {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.4
 }
 /*code*/
@@ -364,9 +277,9 @@ code {
 /*editor de mensajes*/
 .wysiwyg,
 textarea {
-  font-size: 17px!important;
+  font-size: 16px!important;
   line-height: 1.4!important;
-  font-family: "Nunito Sans"!important
+  font-family: "Inter"!important
 }
 /*tamao seleccionable de fuente*/
 .smallfont {
@@ -402,10 +315,10 @@ font[size="7"] {
 
 /*BOLD*/
 strong {
-    font-family: "Nunito Sans"
+    font-family: "Inter"
 }
 b {
-    font-family: "Nunito Sans"
+    font-family: "Inter"
 }
   
 /*icono multipagina*/
@@ -570,7 +483,7 @@ body > div > center > table#AutoNumber1 td:last-child {
   z-index: 32;
   background: var(--bg03);
   border: 0;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   font-size: 13px;
   color: var(--tx01);
   padding: 30px 0;
@@ -578,7 +491,7 @@ body > div > center > table#AutoNumber1 td:last-child {
 }
 #infocookie * {
   color: var(--tx01);
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   font-size: 13px
 }
 #infocookie_close {
@@ -1167,7 +1080,7 @@ ul.tab_list li {
   margin-right: 0;
   height: auto!important;
   font-size: 13px;
-  font-family: "Nunito Sans"!important;
+  font-family: "Inter"!important;
   text-align: center
 }
 /*pestaas no seleccionadas*/
@@ -1847,7 +1760,7 @@ span.navbar:not(:first-of-type) {
   font: 0/0 a
 }
 span.navbar:not(:first-of-type) a {
-  font-family: "Nunito Sans"
+  font-family: "Inter"
 }
 span.navbar:not(:first-of-type):before {
   content: "";
@@ -2037,7 +1950,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 a span:nth-child(3):after {
   content: "Menciones";
   line-height: 24px;
   font-size: 15px;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   color: var(--rgb7b)
 }
 td.alt1[width="100%"] + td.alt2 + td.alt2 a span:nth-child(1) {
@@ -2080,7 +1993,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 + td.alt2 a span:nth-child(3):after {
   content: "Citas";
   line-height: 24px;
   font-size: 15px;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   color: var(--rgb7b)
 }
 td.alt1[width="100%"] + td.alt2 + td.alt2 + td.alt2 a span:nth-child(3):hover:after {
@@ -2214,7 +2127,7 @@ td.vbmenu_control a[href*="login.php"] {
 }
 td.vbmenu_control a[href*="login.php"]:after {
   content: "Cerrar Sesión";
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   margin-left: -37px;
   font-weight: 400;
   font-size: 15px;
@@ -2226,7 +2139,7 @@ td.vbmenu_control a[href*="usercp.php"] {
 }
 td.vbmenu_control a[href*="usercp.php"]:after {
   content: "Panel de Control";
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   font-weight: 400;
   font-size: 15px;
   line-height: 14px
@@ -2423,7 +2336,7 @@ td[id^=td_post] {
 /*tamano titulo mensaje*/
 [id^="td_post_"] .smallfont {
   font-size: 16px;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
 }
 /*enlaces posts*/
 td[id^=td_post] a {
@@ -2738,7 +2651,7 @@ tbody#collapseobj_quickreply td.panelsurround div[style="max-width:880px; width:
 }
 #vB_Editor_001_smiliebox table td.smallfont a {
   color: var(--co01);
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -2791,10 +2704,10 @@ div#vB_Editor_001_popup_fontname td.popup_feedback {
   height: 32px
 }
 div#vB_Editor_001_popup_fontname td.popup_feedback:before {
-  content: "Nunito Sans";
+  content: "Inter";
   cursor: default;
   position: absolute;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   font-size: 14px;
   color: var(--tx01);
   margin-top: -9px;
@@ -2805,7 +2718,7 @@ div#vB_Editor_001_popup_fontname td.popup_feedback > div {
   font-size: 14px;
   height: 32px;
   width: 148px!important;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   background-color: var(--co01);
   position: relative
 }
@@ -2817,7 +2730,7 @@ div#vB_Editor_001_popup_fontsize td.popup_feedback > div {
   line-height: 32px;
   font-size: 14px;
   height: 32px;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   background-color: var(--co01)
 }
 div#vB_Editor_001_popup_fontname td.popup_pickbutton,
@@ -3116,7 +3029,7 @@ input[name="q"] {
   border: 0!important;
   height: 24px!important;
   padding: 0 8px!important;
-  font-family: "Nunito Sans"!important;
+  font-family: "Inter"!important;
   font-size: 14px!important;
   margin: 4px 8px 4px 0;
   padding-left: 0 !important;
@@ -3150,7 +3063,7 @@ input[name="q"]:focus {
   border-radius: 2px;
   height: 32px;
   padding: 0 32px 0 8px;
-  font-family: "Nunito Sans";
+  font-family: "Inter";
   font-size: 14px;
   width: 260px;
   box-shadow: var(--bsh4);
@@ -3191,7 +3104,7 @@ select {
   border-radius: 2px!important;
   min-height: 24px!important;
   padding: 0 24px 0 4px!important;
-  font-family: "Nunito Sans"!important;
+  font-family: "Inter"!important;
   font-size: 14px!important;
   margin: 4px 8px 4px 0;
   box-shadow: var(--bsh1);
@@ -3236,7 +3149,7 @@ form#searchform div[align=left] div.thead[style="padding:5px"] {
 select option {
   vertical-align: middle;
   padding: 2px 4px;
-  font-family: "Nunito Sans"!important;
+  font-family: "Inter"!important;
   font-size: 14px!important
 }
 .fjdpth0 {
@@ -3257,7 +3170,7 @@ input[name=sa],
   height: 24px!important;
   min-width: 24px!important;
   padding: 0 8px!important;
-  font-family: "Nunito Sans"!important;
+  font-family: "Inter"!important;
   font-weight: 500!important;
   font-size: 13px!important;
   text-transform: uppercase;
