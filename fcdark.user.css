@@ -1048,9 +1048,9 @@ table.cajascat[width="100%"][cellpadding="2"][border="0"] > tbody > tr:nth-child
   position: absolute;
   cursor: pointer;
   content: 'Temas Iniciados';
-  width: 103.75px;
+  width: 110px;
   line-height: 24px;
-  top: 4px;
+  top: 6px;
   left: 142px;
   font-size: 13px;
   font-weight: 400;
@@ -1072,10 +1072,10 @@ table.cajascat[width="100%"][cellpadding="2"][border="0"] > tbody > tr:nth-child
   position: absolute;
   cursor: pointer;
   content: 'Temas Participados';
-  width: 119.5px;
+  width: 140px;
   line-height: 24px;
-  top: 4px;
-  left: 276px;
+  top: 6px;
+  left: 269px;
   font-size: 13px;
   font-weight: 400;
   color: var(--rgb7b)
@@ -2107,7 +2107,7 @@ div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:n
 div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:nth-child(2) {
   position: absolute;
   left: 130.5px;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: -3px;
   top: 0
 }
@@ -2115,7 +2115,7 @@ div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:n
 div.tborder[style="padding:1px; border-top-width:0px"] table td.vbmenu_control:nth-child(3) {
   position: absolute;
   left: 260.5px;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: -3px;
   top: 0
 }
@@ -2168,7 +2168,7 @@ td.alt1[width="100%"] + td.alt2 > div.smallfont > strong + div > a {
   top: 63px;
   left: 460px;
   line-height: 24px;
-  font-size: 15px;
+  font-size: 13px;
   color: var(--rgb7b)
 }
 td.alt1[width="100%"] + td.alt2 > div.smallfont > strong + div > a:hover {
@@ -2211,7 +2211,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 a span:nth-child(3):after {
   left: 602px;
   content: "Menciones";
   line-height: 24px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Poppins";
   color: var(--rgb7b)
 }
@@ -2254,7 +2254,7 @@ td.alt1[width="100%"] + td.alt2 + td.alt2 + td.alt2 a span:nth-child(3):after {
   left: 697px;
   content: "Citas";
   line-height: 24px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Poppins";
   color: var(--rgb7b)
 }
@@ -2389,10 +2389,11 @@ td.vbmenu_control a[href*="login.php"] {
 }
 td.vbmenu_control a[href*="login.php"]:after {
   content: "Cerrar Sesión";
+  display: none;
   font-family: "Poppins";
   margin-left: -37px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 16px
 }
 /*panel control a panel de control*/
@@ -2403,7 +2404,7 @@ td.vbmenu_control a[href*="usercp.php"]:after {
   content: "Panel de Control";
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 14px
 }
 /*menus barras de herramientas*/
